@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #efefef;
+}
+h {
+  color: #f3006c;
+  font-size: 33px;
+  font-weight: bolder;
+}
+.navContent {
+  width: 53%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navContent a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navContent a:hover {
+  color: #f3006c;
+}
+
+nav {
+  border-radius: 21px;
+  border-top: 3px outset white;
+  border-left: 3px outset white;
+  box-shadow: 3px 3px 1px #a7a7a7;
+  background: #efefef;
+  width: 75%;
+  height: 40px;
+  display: flex;
+  margin-top: 18px;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+/* introdution-container */
+
+.introduction {
+  width: 75%;
+  height: 85vh;
+  margin: 10px 0;
+  border-radius: 14px;
+  border-top: 3px outset white;
+  border-left: 3px outset white;
+  box-shadow: 3px 3px 1px  #a7a7a7;
+  background: #efefef;
+  display: flex;
+
+}
+
+.leftContent {
+  width: 40%;
+  height: 79%;
+  margin-left: 30px;
+}
+.first {
+  margin: 59px 0;
+  display: flex;
+  flex-direction: column;
+  height: 54%;
+  justify-content: space-around;
+}
+
+.leftContent img {
+  height: 45px;
+}
+.hire {
+  cursor: pointer;
+  background: #ff008a;
+  height: 36px;
+  color: white;
+  font-size: 18px;
+  width: 129px;
+  border-radius: 23px;
+  border-style: none;
+}
+
+.image{
+  height:80%;
+  position:relative;
+left:14%;
+top:9%;
+}
+
+/* feature */
+
+.feature {
+  border-radius: 14px;
+  border-top: 3px outset white;
+  border-left: 3px outset white;
+  box-shadow: 3px 3px 1px  #a7a7a7;
+  background: #efefef;
+  width: 75%;
+}
+.featureHadding {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px auto;
+}
+.featureHadding h2 {
+  margin: 12px;
+  color: #ff008a;
+}
+.cards {
+  margin: 35px;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  margin: 0;
+  border-radius: 14px;
+  border-top: 3px outset white;
+  border-left: 3px outset white;
+  box-shadow: 3px 3px 1px  #a7a7a7;
+  background: #efefef;
+  padding: 23px;
+  height: 174px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card:hover {
+  border: 3px inset white;
+}
+.card i {
+  font-size: 26px;
+}
+
+/* contacts */
+
+.contacts-container {
+  border-radius: 14px;
+  border-top: 3px outset white;
+  border-left: 3px outset white;
+  box-shadow: 3px 3px 1px  #a7a7a7;
+  background: #efefef;
+  width: 75%;
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+
+.leftContact {
+  width: 50%;
+  margin: 31px;
+}
+.contactInf {
+  margin-bottom: 40px;
+}
+.contactInf h4 {
+  color: #ff008a;
+  margin-left: 12px;
+}
+.contactInf p {
+  font-size: 37px;
+}
+/* .contactBy{
+  display: flex;
+} */
+.contact {
+  display: flex;
+}
+
+.contact span {
+  border: 2px solid #f3006c;
+  border-radius: 54px;
+  height: 40px;
+  width: 40px;
+  margin: 0 17px 15px;
+}
+.contact span i {
+  position: relative;
+  top: 10px;
+  left: 12px;
+  font-size: 17px;
+}
+.contact div h5 {
+  color: #f3006c;
+}
+
+.socialMedia {
+  height: 40px;
+  margin: 10px;
+}
+.socialMedia a {
+  border-radius: 54px;
+  height: 40px;
+  width: 40px;
+  margin: 2px;
+  display: inline-block;
+  border-top: 3px outset white;
+  border-left: 3px outset white;
+  box-shadow: 3px 3px 1px  #a7a7a7;
+  background: #efefef;
+  
+}
+.socialMedia a i {
+  position: relative;
+  top: 9px;
+  left: 12px;
+  font-size: 17px;
+  color: black;
+
+}
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width:100%;
+}
+
+.contactUs input  ,.subButton{
+  height:35px;
+  margin: 14px;
+  width:70%;
+  border-radius: 20px;
+  border-bottom: 3px inset white;
+  border-right: 3px inset white;
+  border-top: none;
+  border-left: none;
+  box-shadow: -2px -2px 1px  #a7a7a7;
+  background: #efefef;
+  outline: none;
+  padding-left: 23px;
+}
+.subButton{
+  border :none;
+  box-shadow:none;
+ background: #f3006c;
+ color:white;
+}
+.rightContact {
+  height: 80%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  border-top: 3px outset white;
+  border-left: 3px outset white;
+  box-shadow: 3px 3px 1px  #a7a7a7;
+  background: #efefef;
+  border-radius: 14px;
+  margin: 23px;
+}
